@@ -1,11 +1,11 @@
 import {TextureLoader} from 'three';
 
-import {grass, default_wall} from './image';
+import {dirt, wall} from './image';
 
-const grassTexture = new TextureLoader().load(grass)
-const default_wallTexture = new TextureLoader().load(default_wall)
+const dirtTexture = new TextureLoader().load(dirt)
+const wallTexture = new TextureLoader().load(wall)
 
 export {
-	grassTexture, 
-	default_wallTexture
+	dirtTexture, 
+	wallTexture
 }
